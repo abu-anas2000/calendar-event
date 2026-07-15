@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bin Saadi//AR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VTIMEZONE
+TZID:Asia/Riyadh
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:event001@abu_anas
+DTSTAMP:20260715T120000Z
+
+DTSTART;TZID=Asia/Riyadh:20260821T130000
+DTEND;TZID=Asia/Riyadh:20260801T190000
+
+SUMMARY:زواج صالح بن علي بن سعدي
+DESCRIPTION:زواج صالح بن علي بن سعدي في الدمام يوم الجمعة 8 ربيع الأول 1448 هـ. سيكون استقبال اليوف بعد العشاء مباشرة
+
+LOCATION:https://maps.app.goo.gl/NeQAPpBb29MYA9cN7?g_st=ic الدمام- قاعة اللؤلوة مونتريال
+URL:https://maps.app.goo.gl/NeQAPpBb29MYA9cN7?g_st=ic
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:تذكير بزواج صالح بن علي بن سعدي غداً
+TRIGGER:-P1D
+END:VALARM
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:تذكير بزواج صالح بن علي بن سعدي الليلية
+TRIGGER:-PT3H
+END:VALARM
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:تذكير بزواج صالح بن علي بن سعدي بعد ساعة
+TRIGGER:-PT1H
+END:VALARM
+
+END:VEVENT
+END:VCALENDAR
